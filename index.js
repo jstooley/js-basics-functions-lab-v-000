@@ -19,5 +19,7 @@ function distanceTravelledInFeet (start,end) {
 function calculatesFarePrice (start, destination) {
   distanceOfFare = distanceTravelledInFeet(start, destination)
 
-  if distanceOfFare
+  if (distanceOfFare < 400){
+    return 'gives customers a free sample'
+  } 
 }
