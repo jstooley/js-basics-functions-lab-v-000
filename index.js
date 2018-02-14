@@ -5,7 +5,7 @@ function distanceFromHqInBlocks (block) {
     disntanceInBlocks *= -1;
   }
 
-  return distance_in_blocks;
+  return disntanceInBlocks;
 }
 
 function distanceFromHqInFeet (block) {
