@@ -19,16 +19,13 @@ function distanceTravelledInFeet (start,end) {
 function calculatesFarePrice (start, destination) {
   distanceOfFare = distanceTravelledInFeet(start, destination)
 
-  if (distanceOfFare < 400){
+  if (distanceOfFare < 400) {
     return 'gives customers a free sample'
-  }
-  else if (distanceOfFare =< 2000 ) {
+  } else if (distanceOfFare =< 2000 ) {
     return distanceOfFare * 0.02
-  }
-  else if (distanceOfFare > 2000 && distanceOfFare =< 2500 ){
+  } else if (distanceOfFare > 2000 && distanceOfFare =< 2500 ){
     return 25
-  }
-  else {
+  } else {
     return 'cannot travel that far'
   }
 }
