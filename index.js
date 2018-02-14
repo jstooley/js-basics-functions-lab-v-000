@@ -1,9 +1,6 @@
 function distanceFromHqInBlocks (block) {
-  let disntanceInBlocks = 42 - block;
+  let disntanceInBlocks = Math.abs(42 - block);
 
-  if (disntanceInBlocks < 0) {
-    disntanceInBlocks *= -1;
-  }
 
   return disntanceInBlocks;
 }
