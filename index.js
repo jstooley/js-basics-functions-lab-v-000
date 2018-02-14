@@ -1,8 +1,8 @@
 function distanceFromHqInBlocks (block) {
-  let distance_in_blocks = 42 - block;
+  let disntanceInBlocks = 42 - block;
 
-  if (distance_in_blocks < 0){
-    distance_in_blocks *= -1;
+  if (disntanceInBlocks < 0){
+    disntanceInBlocks *= -1;
   }
 
   return distance_in_blocks;
@@ -17,5 +17,5 @@ function distanceTravelledInFeet (start,end) {
 }
 
 function calculatesFarePrice (start, destination) {
-  distanceTravelledInFeet(start, destination)
+  distanceOfFare = distanceTravelledInFeet(start, destination)
 }
