@@ -1,5 +1,7 @@
 function distanceFromHqInBlocks (block) {
-  return (42 - block)
+  let distance_in_blocks = 42 - block
+
+  if (distance_in_blocks < 0){distance_in_blocks *= -1}
 }
 
 function distanceFromHqInFeet () {}
