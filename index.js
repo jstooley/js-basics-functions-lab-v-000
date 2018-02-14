@@ -14,7 +14,7 @@ function calculatesFarePrice (start, destination) {
   const distanceOfFare = distanceTravelledInFeet(start, destination);
 
   if (distanceOfFare < 400) {
-    return 'gives customers a free sample'
+    return "gives customers a free sample";
   } else if (distanceOfFare =< 2000 ) {
     return distanceOfFare * 0.02;
   } else if (distanceOfFare > 2000 && distanceOfFare =< 2500 ){
