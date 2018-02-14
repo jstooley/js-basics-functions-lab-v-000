@@ -16,7 +16,7 @@ function calculatesFarePrice (start, destination) {
   if (distanceOfFare < 400) {
     return "gives customers a free sample";
   } else if (distanceOfFare =< 2000 ) {
-    return distanceOfFare * 0.02;
+    return distanceOfFare * 2 * 0.01;
   } else if (distanceOfFare > 2000 && distanceOfFare =< 2500 ){
     return 25;
   } else {
