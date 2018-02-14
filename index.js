@@ -15,10 +15,10 @@ function calculatesFarePrice (start, destination) {
   if (distanceOfFare < 400) {
     return 0;
   }
-  else if (distanceOfFare =< 2000) {
+  else if (distanceOfFare <= 2000) {
     return distanceOfFare * 0.02;
   }
-  else if (distanceOfFare > 2000 && distanceOfFare =< 2500 ){
+  else if (distanceOfFare > 2000 && distanceOfFare <= 2500 ){
     return 25;
   }
   else {
