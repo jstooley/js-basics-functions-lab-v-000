@@ -16,4 +16,6 @@ function distanceTravelledInFeet (start,end) {
   return (start - end) * 264
 }
 
-function calculatesFarePrice (start, destination) {}
+function calculatesFarePrice (start, destination) {
+  distanceTravelledInFeet(start, destination)
+}
